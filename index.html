@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Páscoa Cacau Show</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Cacau Show</h1>
+    <nav>
+      <a href="#home">Início</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#promocao">Promoção</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div>
+      <h1>Páscoa Inesquecível com Cacau Show</h1>
+      <p>Ofertas doces por tempo limitado!</p>
+      <button class="cta" onclick="document.getElementById('produtos').scrollIntoView({behavior:'smooth'});">Ver Produtos</button>
+    </div>
+  </section>
+
+  <section id="produtos">
+    <h2>Nossos Ovos de Páscoa</h2>
+    <div class="produto">
+      <img src="https://images.unsplash.com/photo-1616851931324-bf014fb8d99c?auto=format&fit=crop&w=500&q=80" alt="Ovo 1">
+      <h3>Ovo Trufado</h3>
+      <p>R$ 49,90</p>
+    </div>
+    <div class="produto">
+      <img src="https://images.unsplash.com/photo-1523987355523-c7b5b94c6c65?auto=format&fit=crop&w=500&q=80" alt="Ovo 2">
+      <h3>Ovo Crocante</h3>
+      <p>R$ 59,90</p>
+    </div>
+    <div class="produto">
+      <img src="https://images.unsplash.com/photo-1587574293340-9d89f2ed2f7e?auto=format&fit=crop&w=500&q=80" alt="Ovo 3">
+      <h3>Ovo Meio Amargo</h3>
+      <p>R$ 54,90</p>
+    </div>
+  </section>
+
+  <section id="promocao">
+    <h2>Promoção Especial de Páscoa</h2>
+    <p>Aproveite antes que acabe! Oferta válida até:</p>
+    <div id="contador"></div>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre a Cacau Show</h2>
+    <p>A Cacau Show é referência em chocolates artesanais de alta qualidade. Nesta Páscoa, oferecemos momentos únicos com nossos ovos recheados e trufados.</p>
+  </section>
+
+  <section id="contato">
+    <h2>Fale Conosco</h2>
+    <p>Email: atendimento@cacaushow.com.br</p>
+    <p>WhatsApp: (11) 99999-9999</p>
+    <p>Instagram: @cacaushow</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Cacau Show - Todos os direitos reservados.
+  </footer>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
